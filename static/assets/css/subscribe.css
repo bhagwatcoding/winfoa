@@ -1,0 +1,67 @@
+.subscribe-box {
+    margin: 1.5rem auto;
+    max-width: 1000px;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    border: 5px solid var(--light);
+    outline: 5px solid #ff2a95c0;
+    border-radius: 50px 0 50px 0;
+}
+
+.subscribe-box h1 {
+    color: var(--pink);
+    font-size: 2.5rem;
+}
+
+.subscribe-box span {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.subscribe-box input,
+.subscribe-box button {
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.subscribe-box input {
+    text-indent: 1.5rem;
+    width: 400px;
+    border: 1px solid var(--gray);
+    transition: 0.7s ease-in-out;
+    color: var(--pink);
+}
+
+.subscribe-box input:hover,
+.subscribe-box input:focus {
+    outline: 4px solid var(--pink);
+    background-color: whitesmoke;
+}
+
+.subscribe-box button {
+    padding: 0.5rem 5rem;
+    background-color: var(--pink);
+    color: var(--light);
+    font-size: 1.2rem;
+    border: none;
+}
+
+.subscribe-box button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .subscribe-box {
+        margin: 1rem;
+    }
+    .subscribe-box h1 {
+        font-size: 1rem;
+    }
+    .subscribe-box input {
+        width: 90%;
+    }
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-sans-serif);
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --grd-bg: linear-gradient( var(--pink), var(--pink), var(--indigo));
+    --grdb-bg: linear-gradient(50deg, var(--pink), var(--pink), var(--indigo));
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --max-width: 1300px;
+}
+
+.auto-conatiner {
+    margin: 0 auto;
+    max-width: var(--breakpoint-xl);
+}
+
+.flex-just {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-just-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-just-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-just-sb-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-just-sa-align {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+a:hover {
+    transition: 0.7s ease-in-out;
+}
+
+main {
+    height: 95vh;
+}
