@@ -2,7 +2,9 @@
     margin: 1.5rem auto;
     max-width: 1000px;
     padding: 2rem;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     border: 5px solid var(--light);
     outline: 5px solid #ff2a95c0;
@@ -19,29 +21,33 @@
     text-decoration: underline;
 }
 
-.subscribe-box input,
-.subscribe-box button {
+.subscribe-box #email,
+.subscribe-box #subscribe-btn {
     font-weight: bold;
     padding: 0.5rem;
     font-size: 1rem;
     border-radius: 50px;
 }
 
-.subscribe-box input {
+.subscribe-box #email {
     text-indent: 1.5rem;
-    width: 400px;
     border: 1px solid var(--gray);
     transition: 0.7s ease-in-out;
     color: var(--pink);
+    outline: 4px solid transparent;
 }
 
-.subscribe-box input:hover,
-.subscribe-box input:focus {
+.subscribe-box #email {
+    max-width: 800px;
+}
+
+.subscribe-box #email:hover,
+.subscribe-box #email:focus {
     outline: 4px solid var(--pink);
     background-color: whitesmoke;
 }
 
-.subscribe-box button {
+.subscribe-box #subscribe-btn {
     padding: 0.5rem 5rem;
     background-color: var(--pink);
     color: var(--light);
@@ -49,7 +55,7 @@
     border: none;
 }
 
-.subscribe-box button:hover {
+.subscribe-box #subscribe-btn:hover {
     opacity: 0.8;
     cursor: pointer;
 }
@@ -57,11 +63,12 @@
 @media screen and (max-width:900px) {
     .subscribe-box {
         margin: 1rem;
+        gap: 0.8rem;
     }
     .subscribe-box h1 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
-    .subscribe-box input {
+    .subscribe-box #email {
         width: 90%;
     }
 }
