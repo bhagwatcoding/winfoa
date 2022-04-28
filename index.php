@@ -26,7 +26,7 @@
     <!-- services area end -->
  
      <!-- subscribe area strat -->
-     <?php include_once 'layout/lib/subscribe.html';?>
+     <?php include_once 'layout/lib/subscribe.php';?>
      <!-- subscribe area end -->
 
     <!-- footer content start-->
