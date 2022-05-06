@@ -1,5 +1,3 @@
-window.clie
-
 let menuBtn = document.getElementById("menuBtn");
 let navbar = document.getElementById("navbar");
 

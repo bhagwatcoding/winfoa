@@ -1,23 +1,31 @@
+<!--============== custom information add Start ============-->
+<?php 
+$title =  "winfoa Web Develepment Company";
+$desc = "";
+$kwd = "";
+?>
+<!--============== custom information add end ===============-->
+<?php $require = "layout/include/require/";?>
 <!-- Top Head area strat -->
-<?php include_once 'layout/include/require_top_head.php';?>
+<?php include_once $require.'head.php';?>
 <!-- Top Head area end -->
-    <title>winfoa Web Develepment Company</title>
-<!-- Header area strat -->
 
-<!--================== custom information add ==================-->
-
-<!-- Header area end -->
 
 <!--=============== Header area strat=============== -->
-<?php include_once 'layout/include/require_header.php';?>
+<?php include_once $require.'header.php';?>
 <!--=============== Header area end ===============-->
+<?php
 
 
+
+
+
+?>
 
 <!--=============== header area strat ===============-->
 <?php include_once 'layout/dashboard/include.php';?>
 <!--=============== header area end ===============-->
 
 <!--=============== footer area strat ===============-->
-<?php include_once 'layout/include/require_footer.php';?>
+<?php include_once $require.'footer.php';?>
 <!--=============== footer area end ===============-->
