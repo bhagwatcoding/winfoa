@@ -58,8 +58,8 @@ $icon = "static/assets/";
 <?php 
     $dir = "static/assets/css/"; // global assets dir 
     include 'library/resource/style.php';  // inlude tyle file
-    // style('i'); // exicute style in include
-    style(); // exicute style in link
+    style('i'); // exicute style in include
+    // style(); // exicute style in link
 ?>
     <!--================ END ================-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
